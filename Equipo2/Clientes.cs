@@ -324,5 +324,18 @@ namespace Agencia_de_Viajes
         {
             txt_Sexo.Text = cmb_sexo.Text;
         }
+
+        private void rb_alta_CheckedChanged_1(object sender, EventArgs e)
+        {
+           
+                foreach (Control c in groupBox1.Controls)
+                {
+                    if (c is TextBox)
+                    {
+                        c.Text = "";
+                    }
+                }
+            
+        }
     }
 }

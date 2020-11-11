@@ -396,6 +396,7 @@
             this.rb_alta.TabStop = true;
             this.rb_alta.Text = "Alta";
             this.rb_alta.UseVisualStyleBackColor = true;
+            this.rb_alta.CheckedChanged += new System.EventHandler(this.rb_alta_CheckedChanged_1);
             this.rb_alta.Click += new System.EventHandler(this.rb_alta_CheckedChanged);
             // 
             // groupBox2
