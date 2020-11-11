@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Equipo2
+namespace Agencia_de_Viajes
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Equipo2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmMenu());
         }
     }
 }

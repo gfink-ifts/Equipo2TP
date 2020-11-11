@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Equipo2.Properties
+namespace Agencia_de_Viajes.Properties
 {
 
 
